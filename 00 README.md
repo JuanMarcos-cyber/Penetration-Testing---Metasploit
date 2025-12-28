@@ -14,3 +14,10 @@ focusing on methodology, automation, and risk validation.
 
 ## Disclaimer
 All testing was performed in an isolated lab environment for educational purposes only.
+
+# 🙌 Author
+
+**Juan Marcos Lázaro**  
+Cloud Security & GRC Professional  
+Miami, FL  
+LinkedIn: https://www.linkedin.com/in/juanmarcoslazaro
