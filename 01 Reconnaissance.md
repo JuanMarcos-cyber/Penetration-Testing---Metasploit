@@ -49,6 +49,9 @@ set RHOSTS 10.128.0.226
 run
 ```
 
+![FTP Banner Grabbing](Screenshots/Screenshot%20FTP-banner-grabbing.png)
+
+
 **Result:**
 - FTP service identified as **vsftpd 2.3.4**
 - Version banner exposed without authentication
