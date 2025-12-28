@@ -66,6 +66,8 @@ set RHOSTS 10.128.0.226
 run
 ```
 
+![FTP Banner Grabbing](Screenshots/Screenshot%20SSH-banner-grabbing.png)
+
 **Result:**
 
 - **OpenSSH 8.4p1** detected
@@ -79,6 +81,8 @@ use auxiliary/scanner/telnet/telnet_version
 set RHOSTS 10.128.0.226
 run
 ```
+
+![FTP Banner Grabbing](Screenshots/Screenshot%20TELNET-banner-grabbing.png)
 
 **Result:**
 
@@ -94,6 +98,9 @@ use auxiliary/scanner/ftp/anonymous
 set RHOSTS 10.128.0.226
 run
 ```
+
+![Anonymous FTP Access](Screenshots/Screenshot%20AnonFTPaccess.png)
+
 
 **Result:**
 - Anonymous FTP access was not permitted
