@@ -114,6 +114,38 @@ This script was executed using:
 resource advanced_scan.rc
 ```
 
+## Custom Metasploit Resource Script – Advanced Lab
+
+The following Metasploit resource script was created to automate reconnaissance
+tasks identified during the engagement. The script focuses exclusively on
+service discovery and version enumeration.
+
+
+> [!NOTE]
+>
+> ```rc
+> # script 
+>
+> use auxiliary/scanner/portscan/tcp
+> set RHOSTS 10.128.0.226
+> set PORTS 21,22,23,6200
+> run
+>
+> use auxiliary/scanner/ftp/ftp_version
+> set RHOSTS 10.128.0.226
+> run
+>
+> use auxiliary/scanner/ssh/ssh_version
+> set RHOSTS 10.128.0.226
+> run
+>
+> use auxiliary/scanner/telnet/telnet_version
+> set RHOSTS 10.128.0.226
+> run
+> ```
+
+
+
 ## Key Findings
 
 - Multiple network services were exposed to the network.
